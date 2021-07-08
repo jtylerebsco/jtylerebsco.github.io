@@ -1,0 +1,50 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "legacy_database_report" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "legacy_database_report" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">legacy_database_report</TD></TR>
+      <TR><TD PORT="prodcode" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">prodcode</TD></TR>
+      <TR><TD PORT="dbname" COLSPAN="3" ALIGN="LEFT">dbname</TD></TR>
+      <TR><TD PORT="epd_epdb" COLSPAN="3" ALIGN="LEFT">epd_epdb</TD></TR>
+      <TR><TD PORT="consolidated" COLSPAN="3" ALIGN="LEFT">consolidated</TD></TR>
+      <TR><TD PORT="volumes" COLSPAN="3" ALIGN="LEFT">volumes</TD></TR>
+      <TR><TD PORT="family" COLSPAN="3" ALIGN="LEFT">family</TD></TR>
+      <TR><TD PORT="db_type" COLSPAN="3" ALIGN="LEFT">db_type</TD></TR>
+      <TR><TD PORT="domain" COLSPAN="3" ALIGN="LEFT">domain</TD></TR>
+      <TR><TD PORT="priority" COLSPAN="3" ALIGN="LEFT">priority</TD></TR>
+      <TR><TD PORT="workflow" COLSPAN="3" ALIGN="LEFT">workflow</TD></TR>
+      <TR><TD PORT="status" COLSPAN="3" ALIGN="LEFT">status</TD></TR>
+      <TR><TD PORT="frequency" COLSPAN="3" ALIGN="LEFT">frequency</TD></TR>
+      <TR><TD PORT="last_build_date" COLSPAN="3" ALIGN="LEFT">last_build_date</TD></TR>
+      <TR><TD PORT="tolerance" COLSPAN="3" ALIGN="LEFT">tolerance</TD></TR>
+      <TR><TD PORT="record_count" COLSPAN="3" ALIGN="LEFT">record_count</TD></TR>
+      <TR><TD PORT="service_issues" COLSPAN="3" ALIGN="LEFT">service_issues</TD></TR>
+      <TR><TD PORT="team" COLSPAN="3" ALIGN="LEFT">team</TD></TR>
+      <TR><TD PORT="build_type" COLSPAN="3" ALIGN="LEFT">build_type</TD></TR>
+      <TR><TD PORT="path_forward" COLSPAN="3" ALIGN="LEFT">path_forward</TD></TR>
+      <TR><TD PORT="target_date" COLSPAN="3" ALIGN="LEFT">target_date</TD></TR>
+      <TR><TD PORT="blockers" COLSPAN="3" ALIGN="LEFT">blockers</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">246 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/legacy_database_report.html"
+    tooltip="legacy_database_report"
+  ];
+}

@@ -17,6 +17,7 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
+  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -132,7 +133,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='2 columns'>Table contained 23 rows at Thu Jul 08 08:17 EDT 2021<p/>
+<p title='2 columns'>Table contained 23 rows at Thu Jul 08 09:19 EDT 2021<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -161,9 +162,21 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </table>
 </div>
 <table width='100%' border='0'><tr><td class='container'>
-</td></tr></table><p>
-<br>SchemaSpy was unable to generate a diagram of table relationships.
-<br>SchemaSpy requires Graphviz version 2.2.1 or versions greater than 2.4 from <a href='http://www.graphviz.org' target='_blank'>www.graphviz.org</a>.
+<br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from database_families'>
+&nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
+<map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" href="product_families.html" title="product_families" alt="" coords="254,8,393,109" >
+<area shape="rect" href="database_families.html" title="database_families" alt="" coords="7,28,210,134" >
+</map>
+  <a name='diagram'><img id='oneDegreeImg' src='../diagrams/database_families.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+<map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" href="product_families.html" title="product_families" alt="" coords="254,47,393,149" >
+<area shape="rect" href="database_families.html" title="database_families" alt="" coords="7,105,210,211" >
+<area shape="rect" href="products.html" title="products" alt="" coords="18,7,199,87" >
+</map>
+
+  <a name='diagram'><img id='twoDegreesImg' src='../diagrams/database_families.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+</td></tr></table>
 </div>
 </body>
 </html>

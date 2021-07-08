@@ -17,6 +17,7 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
+  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -174,7 +175,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='5 columns'>Table contained 0 rows at Thu Jul 08 08:17 EDT 2021<p/>
+<p title='5 columns'>Table contained 0 rows at Thu Jul 08 09:19 EDT 2021<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -203,9 +204,37 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </table>
 </div>
 <table width='100%' border='0'><tr><td class='container'>
-</td></tr></table><p>
-<br>SchemaSpy was unable to generate a diagram of table relationships.
-<br>SchemaSpy requires Graphviz version 2.2.1 or versions greater than 2.4 from <a href='http://www.graphviz.org' target='_blank'>www.graphviz.org</a>.
+<br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from content_provider_id_types'>
+&nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
+<map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" href="content_provider_id_types.html" title="content_provider_id_types" alt="" coords="281,50,622,226" >
+<area shape="rect" href="statuses.html" title="statuses" alt="" coords="8,121,237,291" >
+<area shape="rect" href="content_providers.html" title="content_providers" alt="" coords="666,7,866,269" >
+</map>
+  <a name='diagram'><img id='oneDegreeImg' src='../diagrams/content_provider_id_types.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+<map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" href="build_frequencies.html" title="build_frequencies" alt="" coords="928,9,1074,89" >
+<area shape="rect" href="statuses.html" title="statuses" alt="" coords="8,676,237,846" >
+<area shape="rect" href="build_types.html" title="build_types" alt="" coords="698,240,834,320" >
+<area shape="rect" href="content_provider_id_types.html" title="content_provider_id_types" alt="" coords="281,433,622,609" >
+<area shape="rect" href="content_providers.html" title="content_providers" alt="" coords="666,470,866,732" >
+<area shape="rect" href="database_types.html" title="database_types" alt="" coords="698,337,834,417" >
+<area shape="rect" href="db_pipelineteams.html" title="db_pipelineteams" alt="" coords="378,1221,525,1301" >
+<area shape="rect" href="departments.html" title="departments" alt="" coords="385,954,518,1034" >
+<area shape="rect" href="loader_types.html" title="loader_types" alt="" coords="385,626,518,706" >
+<area shape="rect" href="note_reason_types.html" title="note_reason_types" alt="" coords="373,1124,530,1204" >
+<area shape="rect" href="note_reasons.html" title="note_reasons" alt="" coords="696,1088,837,1168" >
+<area shape="rect" href="notes.html" title="notes" alt="" coords="916,921,1086,1001" >
+<area shape="rect" href="users.html" title="users" alt="" coords="686,821,846,901" >
+<area shape="rect" href="roles.html" title="roles" alt="" coords="385,821,518,901" >
+<area shape="rect" href="priorities.html" title="priorities" alt="" coords="700,142,833,222" >
+<area shape="rect" href="products.html" title="products" alt="" coords="910,634,1092,714" >
+<area shape="rect" href="workflow_systems.html" title="workflow_systems" alt="" coords="376,724,528,804" >
+<area shape="rect" href="scheduled_builds.html" title="scheduled_builds" alt="" coords="1136,560,1336,640" >
+</map>
+
+  <a name='diagram'><img id='twoDegreesImg' src='../diagrams/content_provider_id_types.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+</td></tr></table>
 </div>
 </body>
 </html>

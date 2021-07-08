@@ -1,0 +1,49 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "v_product_summaries_old_version" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "v_product_summaries_old_version" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">v_product_summaries_old_version</TD></TR>
+      <TR><TD PORT="product_id" COLSPAN="3" ALIGN="LEFT">product_id</TD></TR>
+      <TR><TD PORT="prodcode" COLSPAN="3" ALIGN="LEFT">prodcode</TD></TR>
+      <TR><TD PORT="product_name" COLSPAN="3" ALIGN="LEFT">product_name</TD></TR>
+      <TR><TD PORT="dppa_product_owner_username" COLSPAN="3" ALIGN="LEFT">dppa_product_owner_username</TD></TR>
+      <TR><TD PORT="dppa_product_owner_first_name" COLSPAN="3" ALIGN="LEFT">dppa_product_owner_first_name</TD></TR>
+      <TR><TD PORT="dppa_product_owner_last_name" COLSPAN="3" ALIGN="LEFT">dppa_product_owner_last_name</TD></TR>
+      <TR><TD PORT="pcm_product_owner_username" COLSPAN="3" ALIGN="LEFT">pcm_product_owner_username</TD></TR>
+      <TR><TD PORT="pcm_product_owner_first_name" COLSPAN="3" ALIGN="LEFT">pcm_product_owner_first_name</TD></TR>
+      <TR><TD PORT="pcm_product_owner_last_name" COLSPAN="3" ALIGN="LEFT">pcm_product_owner_last_name</TD></TR>
+      <TR><TD PORT="database_type_name" COLSPAN="3" ALIGN="LEFT">database_type_name</TD></TR>
+      <TR><TD PORT="priority_name" COLSPAN="3" ALIGN="LEFT">priority_name</TD></TR>
+      <TR><TD PORT="workflow_system_name" COLSPAN="3" ALIGN="LEFT">workflow_system_name</TD></TR>
+      <TR><TD PORT="status_name" COLSPAN="3" ALIGN="LEFT">status_name</TD></TR>
+      <TR><TD PORT="content_source_name" COLSPAN="3" ALIGN="LEFT">content_source_name</TD></TR>
+      <TR><TD PORT="schedule_template_id" COLSPAN="3" ALIGN="LEFT">schedule_template_id</TD></TR>
+      <TR><TD PORT="build_frequency_name" COLSPAN="3" ALIGN="LEFT">build_frequency_name</TD></TR>
+      <TR><TD PORT="tolerance" COLSPAN="3" ALIGN="LEFT">tolerance</TD></TR>
+      <TR><TD PORT="schedule_source_department_name" COLSPAN="3" ALIGN="LEFT">schedule_source_department_name</TD></TR>
+      <TR><TD PORT="estimated_build_time" COLSPAN="3" ALIGN="LEFT">estimated_build_time</TD></TR>
+      <TR><TD PORT="delivery_comment" COLSPAN="3" ALIGN="LEFT">delivery_comment</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">view</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/v_product_summaries_old_version.html"
+    tooltip="v_product_summaries_old_version"
+  ];
+}

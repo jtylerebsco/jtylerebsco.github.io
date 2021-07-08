@@ -1,0 +1,38 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "imported_ftpusers" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "imported_ftpusers" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">imported_ftpusers</TD></TR>
+      <TR><TD PORT="UserName" COLSPAN="3" ALIGN="LEFT">UserName</TD></TR>
+      <TR><TD PORT="Password" COLSPAN="3" ALIGN="LEFT">Password</TD></TR>
+      <TR><TD PORT="CaseNumber" COLSPAN="3" ALIGN="LEFT">CaseNumber</TD></TR>
+      <TR><TD PORT="CustID" COLSPAN="3" ALIGN="LEFT">CustID</TD></TR>
+      <TR><TD PORT="Date" COLSPAN="3" ALIGN="LEFT">Date</TD></TR>
+      <TR><TD PORT="Spider" COLSPAN="3" ALIGN="LEFT">Spider</TD></TR>
+      <TR><TD PORT="Rep" COLSPAN="3" ALIGN="LEFT">Rep</TD></TR>
+      <TR><TD PORT="Item Type" COLSPAN="3" ALIGN="LEFT">Item Type</TD></TR>
+      <TR><TD PORT="Path" COLSPAN="3" ALIGN="LEFT">Path</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8,756 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/imported_ftpusers.html"
+    tooltip="imported_ftpusers"
+  ];
+}

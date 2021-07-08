@@ -1,0 +1,58 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "product_build_parameters" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "product_build_parameters" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">product_build_parameters</TD></TR>
+      <TR><TD PORT="product_build_parameters_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">product_build_parameters_id</TD></TR>
+      <TR><TD PORT="product_group" COLSPAN="3" ALIGN="LEFT">product_group</TD></TR>
+      <TR><TD PORT="start_label" COLSPAN="3" ALIGN="LEFT">start_label</TD></TR>
+      <TR><TD PORT="end_label" COLSPAN="3" ALIGN="LEFT">end_label</TD></TR>
+      <TR><TD PORT="auto_qc_level" COLSPAN="3" ALIGN="LEFT">auto_qc_level</TD></TR>
+      <TR><TD PORT="product_version_beta" COLSPAN="3" ALIGN="LEFT">product_version_beta</TD></TR>
+      <TR><TD PORT="product_version_release" COLSPAN="3" ALIGN="LEFT">product_version_release</TD></TR>
+      <TR><TD PORT="recursive" COLSPAN="3" ALIGN="LEFT">recursive</TD></TR>
+      <TR><TD PORT="file_pattern_format" COLSPAN="3" ALIGN="LEFT">file_pattern_format</TD></TR>
+      <TR><TD PORT="create_full_text" COLSPAN="3" ALIGN="LEFT">create_full_text</TD></TR>
+      <TR><TD PORT="lookup_path" COLSPAN="3" ALIGN="LEFT">lookup_path</TD></TR>
+      <TR><TD PORT="lookup_table_name" COLSPAN="3" ALIGN="LEFT">lookup_table_name</TD></TR>
+      <TR><TD PORT="lookup_separator" COLSPAN="3" ALIGN="LEFT">lookup_separator</TD></TR>
+      <TR><TD PORT="compressed_ft" COLSPAN="3" ALIGN="LEFT">compressed_ft</TD></TR>
+      <TR><TD PORT="domain" COLSPAN="3" ALIGN="LEFT">domain</TD></TR>
+      <TR><TD PORT="compressed_ft_input_path" COLSPAN="3" ALIGN="LEFT">compressed_ft_input_path</TD></TR>
+      <TR><TD PORT="compressed_ft_file_pattern" COLSPAN="3" ALIGN="LEFT">compressed_ft_file_pattern</TD></TR>
+      <TR><TD PORT="uncompressed_ft_output_path" COLSPAN="3" ALIGN="LEFT">uncompressed_ft_output_path</TD></TR>
+      <TR><TD PORT="target_ft_directory" COLSPAN="3" ALIGN="LEFT">target_ft_directory</TD></TR>
+      <TR><TD PORT="create_ft_if_absent" COLSPAN="3" ALIGN="LEFT">create_ft_if_absent</TD></TR>
+      <TR><TD PORT="lookup_ft" COLSPAN="3" ALIGN="LEFT">lookup_ft</TD></TR>
+      <TR><TD PORT="create_pdf_list" COLSPAN="3" ALIGN="LEFT">create_pdf_list</TD></TR>
+      <TR><TD PORT="additional_parameters" COLSPAN="3" ALIGN="LEFT">additional_parameters</TD></TR>
+      <TR><TD PORT="pulled_authority" COLSPAN="3" ALIGN="LEFT">pulled_authority</TD></TR>
+      <TR><TD PORT="hjaf" COLSPAN="3" ALIGN="LEFT">hjaf</TD></TR>
+      <TR><TD PORT="hjaf_input_path" COLSPAN="3" ALIGN="LEFT">hjaf_input_path</TD></TR>
+      <TR><TD PORT="hjaf_product_code" COLSPAN="3" ALIGN="LEFT">hjaf_product_code</TD></TR>
+      <TR><TD PORT="hjaf_product_version" COLSPAN="3" ALIGN="LEFT">hjaf_product_version</TD></TR>
+      <TR><TD PORT="hjaf_additional_parameters" COLSPAN="3" ALIGN="LEFT">hjaf_additional_parameters</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/product_build_parameters.html"
+    tooltip="product_build_parameters"
+  ];
+}

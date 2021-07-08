@@ -1,0 +1,34 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "intra_day_build_temp" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "intra_day_build_temp" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">intra_day_build_temp</TD></TR>
+      <TR><TD PORT="Product_Id" COLSPAN="3" ALIGN="LEFT">Product_Id</TD></TR>
+      <TR><TD PORT="Wrapper" COLSPAN="3" ALIGN="LEFT">Wrapper</TD></TR>
+      <TR><TD PORT="Delivery_Date" COLSPAN="3" ALIGN="LEFT">Delivery_Date</TD></TR>
+      <TR><TD PORT="File_Path" COLSPAN="3" ALIGN="LEFT">File_Path</TD></TR>
+      <TR><TD PORT="Intraday_Check" COLSPAN="3" ALIGN="LEFT">Intraday_Check</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/intra_day_build_temp.html"
+    tooltip="intra_day_build_temp"
+  ];
+}

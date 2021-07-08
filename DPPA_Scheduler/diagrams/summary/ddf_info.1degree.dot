@@ -1,0 +1,35 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "ddf_info" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "ddf_info" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">ddf_info</TD></TR>
+      <TR><TD PORT="dbname" COLSPAN="3" ALIGN="LEFT">dbname</TD></TR>
+      <TR><TD PORT="is_epdb" COLSPAN="3" ALIGN="LEFT">is_epdb</TD></TR>
+      <TR><TD PORT="field_size" COLSPAN="3" ALIGN="LEFT">field_size</TD></TR>
+      <TR><TD PORT="equivalent_size" COLSPAN="3" ALIGN="LEFT">equivalent_size</TD></TR>
+      <TR><TD PORT="PDF" COLSPAN="3" ALIGN="LEFT">PDF</TD></TR>
+      <TR><TD PORT="HTML" COLSPAN="3" ALIGN="LEFT">HTML</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1,111 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/ddf_info.html"
+    tooltip="ddf_info"
+  ];
+}

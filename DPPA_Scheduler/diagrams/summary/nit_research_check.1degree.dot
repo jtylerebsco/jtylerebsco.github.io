@@ -1,0 +1,48 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "nit_research_check" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "nit_research_check" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">nit_research_check</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="prodcode" COLSPAN="3" ALIGN="LEFT">prodcode</TD></TR>
+      <TR><TD PORT="word_searched" COLSPAN="3" ALIGN="LEFT">word_searched</TD></TR>
+      <TR><TD PORT="record_an" COLSPAN="3" ALIGN="LEFT">record_an</TD></TR>
+      <TR><TD PORT="title_match" COLSPAN="3" ALIGN="LEFT">title_match</TD></TR>
+      <TR><TD PORT="pub_date_match" COLSPAN="3" ALIGN="LEFT">pub_date_match</TD></TR>
+      <TR><TD PORT="subjects_match" COLSPAN="3" ALIGN="LEFT">subjects_match</TD></TR>
+      <TR><TD PORT="auth_contrib_match" COLSPAN="3" ALIGN="LEFT">auth_contrib_match</TD></TR>
+      <TR><TD PORT="abstracts_match" COLSPAN="3" ALIGN="LEFT">abstracts_match</TD></TR>
+      <TR><TD PORT="pub_name_match" COLSPAN="3" ALIGN="LEFT">pub_name_match</TD></TR>
+      <TR><TD PORT="cit_abnt" COLSPAN="3" ALIGN="LEFT">cit_abnt</TD></TR>
+      <TR><TD PORT="cit_ama" COLSPAN="3" ALIGN="LEFT">cit_ama</TD></TR>
+      <TR><TD PORT="cit_apa" COLSPAN="3" ALIGN="LEFT">cit_apa</TD></TR>
+      <TR><TD PORT="cit_chicago_author_date" COLSPAN="3" ALIGN="LEFT">cit_chicago_author_date</TD></TR>
+      <TR><TD PORT="cit_harvard_australian" COLSPAN="3" ALIGN="LEFT">cit_harvard_australian</TD></TR>
+      <TR><TD PORT="cit_harvard" COLSPAN="3" ALIGN="LEFT">cit_harvard</TD></TR>
+      <TR><TD PORT="cit_mla" COLSPAN="3" ALIGN="LEFT">cit_mla</TD></TR>
+      <TR><TD PORT="cit_chicago_human" COLSPAN="3" ALIGN="LEFT">cit_chicago_human</TD></TR>
+      <TR><TD PORT="cit_vancouver" COLSPAN="3" ALIGN="LEFT">cit_vancouver</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/nit_research_check.html"
+    tooltip="nit_research_check"
+  ];
+}

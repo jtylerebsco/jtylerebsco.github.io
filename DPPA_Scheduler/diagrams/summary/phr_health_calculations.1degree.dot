@@ -1,0 +1,61 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "phr_health_calculations" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "phr_health_calculations" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">phr_health_calculations</TD></TR>
+      <TR><TD PORT="product_id" COLSPAN="3" ALIGN="LEFT">product_id</TD></TR>
+      <TR><TD PORT="prodcode" COLSPAN="3" ALIGN="LEFT">prodcode</TD></TR>
+      <TR><TD PORT="database_type_name" COLSPAN="3" ALIGN="LEFT">database_type_name</TD></TR>
+      <TR><TD PORT="status_name" COLSPAN="3" ALIGN="LEFT">status_name</TD></TR>
+      <TR><TD PORT="build_frequency_name" COLSPAN="3" ALIGN="LEFT">build_frequency_name</TD></TR>
+      <TR><TD PORT="delivery_date_most_recent" COLSPAN="3" ALIGN="LEFT">delivery_date_most_recent</TD></TR>
+      <TR><TD PORT="estimated_days_between_builds" COLSPAN="3" ALIGN="LEFT">estimated_days_between_builds</TD></TR>
+      <TR><TD PORT="entrydate" COLSPAN="3" ALIGN="LEFT">entrydate</TD></TR>
+      <TR><TD PORT="startdate" COLSPAN="3" ALIGN="LEFT">startdate</TD></TR>
+      <TR><TD PORT="build_after_last_delivery" COLSPAN="3" ALIGN="LEFT">build_after_last_delivery</TD></TR>
+      <TR><TD PORT="build_end_time" COLSPAN="3" ALIGN="LEFT">build_end_time</TD></TR>
+      <TR><TD PORT="building" COLSPAN="3" ALIGN="LEFT">building</TD></TR>
+      <TR><TD PORT="build_status" COLSPAN="3" ALIGN="LEFT">build_status</TD></TR>
+      <TR><TD PORT="update_time" COLSPAN="3" ALIGN="LEFT">update_time</TD></TR>
+      <TR><TD PORT="build_time_buffer" COLSPAN="3" ALIGN="LEFT">build_time_buffer</TD></TR>
+      <TR><TD PORT="currency_flag_sub_kpi_rdks" COLSPAN="3" ALIGN="LEFT">currency_flag_sub_kpi_rdks</TD></TR>
+      <TR><TD PORT="max_delivery_date" COLSPAN="3" ALIGN="LEFT">max_delivery_date</TD></TR>
+      <TR><TD PORT="date_diff_efm_today" COLSPAN="3" ALIGN="LEFT">date_diff_efm_today</TD></TR>
+      <TR><TD PORT="expected_frequency_mismatch" COLSPAN="3" ALIGN="LEFT">expected_frequency_mismatch</TD></TR>
+      <TR><TD PORT="efm_flag" COLSPAN="3" ALIGN="LEFT">efm_flag</TD></TR>
+      <TR><TD PORT="built_since_delivery" COLSPAN="3" ALIGN="LEFT">built_since_delivery</TD></TR>
+      <TR><TD PORT="first_delivery_after_build" COLSPAN="3" ALIGN="LEFT">first_delivery_after_build</TD></TR>
+      <TR><TD PORT="lt_calc_delivery_date" COLSPAN="3" ALIGN="LEFT">lt_calc_delivery_date</TD></TR>
+      <TR><TD PORT="currency_flag_sub_kpi" COLSPAN="3" ALIGN="LEFT">currency_flag_sub_kpi</TD></TR>
+      <TR><TD PORT="product_currency_flag" COLSPAN="3" ALIGN="LEFT">product_currency_flag</TD></TR>
+      <TR><TD PORT="product_currency_flag_rdks" COLSPAN="3" ALIGN="LEFT">product_currency_flag_rdks</TD></TR>
+      <TR><TD PORT="product_currency_aggregate" COLSPAN="3" ALIGN="LEFT">product_currency_aggregate</TD></TR>
+      <TR><TD PORT="currency_flag_sla" COLSPAN="3" ALIGN="LEFT">currency_flag_sla</TD></TR>
+      <TR><TD PORT="in_progress_build_flag" COLSPAN="3" ALIGN="LEFT">in_progress_build_flag</TD></TR>
+      <TR><TD PORT="lt_calc_build_date" COLSPAN="3" ALIGN="LEFT">lt_calc_build_date</TD></TR>
+      <TR><TD PORT="product_lead_time" COLSPAN="3" ALIGN="LEFT">product_lead_time</TD></TR>
+      <TR><TD PORT="product_lead_time_rdk" COLSPAN="3" ALIGN="LEFT">product_lead_time_rdk</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/phr_health_calculations.html"
+    tooltip="phr_health_calculations"
+  ];
+}

@@ -1,0 +1,42 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "v_note_summaries" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "v_note_summaries" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">v_note_summaries</TD></TR>
+      <TR><TD PORT="note_id" COLSPAN="3" ALIGN="LEFT">note_id</TD></TR>
+      <TR><TD PORT="note_text" COLSPAN="3" ALIGN="LEFT">note_text</TD></TR>
+      <TR><TD PORT="note_reason_name" COLSPAN="3" ALIGN="LEFT">note_reason_name</TD></TR>
+      <TR><TD PORT="note_reason_type_name" COLSPAN="3" ALIGN="LEFT">note_reason_type_name</TD></TR>
+      <TR><TD PORT="created_date" COLSPAN="3" ALIGN="LEFT">created_date</TD></TR>
+      <TR><TD PORT="created_by_username" COLSPAN="3" ALIGN="LEFT">created_by_username</TD></TR>
+      <TR><TD PORT="created_by_first_name" COLSPAN="3" ALIGN="LEFT">created_by_first_name</TD></TR>
+      <TR><TD PORT="created_by_last_name" COLSPAN="3" ALIGN="LEFT">created_by_last_name</TD></TR>
+      <TR><TD PORT="status_name" COLSPAN="3" ALIGN="LEFT">status_name</TD></TR>
+      <TR><TD PORT="s_prodcode" COLSPAN="3" ALIGN="LEFT">s_prodcode</TD></TR>
+      <TR><TD PORT="s_product_name" COLSPAN="3" ALIGN="LEFT">s_product_name</TD></TR>
+      <TR><TD PORT="s_note_date" COLSPAN="3" ALIGN="LEFT">s_note_date</TD></TR>
+      <TR><TD PORT="note_for" COLSPAN="3" ALIGN="LEFT">note_for</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">view</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/v_note_summaries.html"
+    tooltip="v_note_summaries"
+  ];
+}

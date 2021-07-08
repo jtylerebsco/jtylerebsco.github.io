@@ -1,0 +1,32 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "product_build_parameters_map" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "product_build_parameters_map" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">product_build_parameters_map</TD></TR>
+      <TR><TD PORT="product_id" COLSPAN="3" ALIGN="LEFT">product_id</TD></TR>
+      <TR><TD PORT="product_build_parameters_id" COLSPAN="3" ALIGN="LEFT">product_build_parameters_id</TD></TR>
+      <TR><TD PORT="rank" COLSPAN="3" ALIGN="LEFT">rank</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/product_build_parameters_map.html"
+    tooltip="product_build_parameters_map"
+  ];
+}

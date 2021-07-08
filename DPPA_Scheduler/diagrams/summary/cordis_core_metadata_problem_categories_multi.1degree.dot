@@ -1,0 +1,31 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "cordis_core_metadata_problem_categories_multi" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "cordis_core_metadata_problem_categories_multi" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">cordis_core_metadata_problem_categories_multi</TD></TR>
+      <TR><TD PORT="service_issue_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">service_issue_id</TD></TR>
+      <TR><TD PORT="problem_category_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">problem_category_id</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">298 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/cordis_core_metadata_problem_categories_multi.html"
+    tooltip="cordis_core_metadata_problem_categories_multi"
+  ];
+}

@@ -1,0 +1,77 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "imported_irdata" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "imported_irdata" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">imported_irdata</TD></TR>
+      <TR><TD PORT="Customer ID" COLSPAN="3" ALIGN="LEFT">Customer ID</TD></TR>
+      <TR><TD PORT="Customer Type" COLSPAN="3" ALIGN="LEFT">Customer Type</TD></TR>
+      <TR><TD PORT="IR Status" COLSPAN="3" ALIGN="LEFT">IR Status</TD></TR>
+      <TR><TD PORT="Added to EDS profile and communicated" COLSPAN="3" ALIGN="LEFT">Added to EDS profile and communicated</TD></TR>
+      <TR><TD PORT="Discovery Service Coordinator" COLSPAN="3" ALIGN="LEFT">Discovery Service Coordinator</TD></TR>
+      <TR><TD PORT="CSAS" COLSPAN="3" ALIGN="LEFT">CSAS</TD></TR>
+      <TR><TD PORT="Product Code" COLSPAN="3" ALIGN="LEFT">Product Code</TD></TR>
+      <TR><TD PORT="Copy of Existing IR" COLSPAN="3" ALIGN="LEFT">Copy of Existing IR</TD></TR>
+      <TR><TD PORT="Questionnaire Received" COLSPAN="3" ALIGN="LEFT">Questionnaire Received</TD></TR>
+      <TR><TD PORT="IR Software/Vendor" COLSPAN="3" ALIGN="LEFT">IR Software/Vendor</TD></TR>
+      <TR><TD PORT="FTP Values" COLSPAN="3" ALIGN="LEFT">FTP Values</TD></TR>
+      <TR><TD PORT="Reload Frequency" COLSPAN="3" ALIGN="LEFT">Reload Frequency</TD></TR>
+      <TR><TD PORT="Review Link" COLSPAN="3" ALIGN="LEFT">Review Link</TD></TR>
+      <TR><TD PORT="Sales Director" COLSPAN="3" ALIGN="LEFT">Sales Director</TD></TR>
+      <TR><TD PORT="Questionnaire Language" COLSPAN="3" ALIGN="LEFT">Questionnaire Language</TD></TR>
+      <TR><TD PORT="List Priority" COLSPAN="3" ALIGN="LEFT">List Priority</TD></TR>
+      <TR><TD PORT="Data Location" COLSPAN="3" ALIGN="LEFT">Data Location</TD></TR>
+      <TR><TD PORT="Modified" COLSPAN="3" ALIGN="LEFT">Modified</TD></TR>
+      <TR><TD PORT="Modified By" COLSPAN="3" ALIGN="LEFT">Modified By</TD></TR>
+      <TR><TD PORT="Comments" COLSPAN="3" ALIGN="LEFT">Comments</TD></TR>
+      <TR><TD PORT="Contact Email" COLSPAN="3" ALIGN="LEFT">Contact Email</TD></TR>
+      <TR><TD PORT="Contact Name" COLSPAN="3" ALIGN="LEFT">Contact Name</TD></TR>
+      <TR><TD PORT="Content Type" COLSPAN="3" ALIGN="LEFT">Content Type</TD></TR>
+      <TR><TD PORT="Created" COLSPAN="3" ALIGN="LEFT">Created</TD></TR>
+      <TR><TD PORT="Created By" COLSPAN="3" ALIGN="LEFT">Created By</TD></TR>
+      <TR><TD PORT="Customer Name" COLSPAN="3" ALIGN="LEFT">Customer Name</TD></TR>
+      <TR><TD PORT="Date Discovered" COLSPAN="3" ALIGN="LEFT">Date Discovered</TD></TR>
+      <TR><TD PORT="Delivered for 1st Review" COLSPAN="3" ALIGN="LEFT">Delivered for 1st Review</TD></TR>
+      <TR><TD PORT="Designer" COLSPAN="3" ALIGN="LEFT">Designer</TD></TR>
+      <TR><TD PORT="Developer" COLSPAN="3" ALIGN="LEFT">Developer</TD></TR>
+      <TR><TD PORT="Finish Date" COLSPAN="3" ALIGN="LEFT">Finish Date</TD></TR>
+      <TR><TD PORT="Format" COLSPAN="3" ALIGN="LEFT">Format</TD></TR>
+      <TR><TD PORT="ID" COLSPAN="3" ALIGN="LEFT">ID</TD></TR>
+      <TR><TD PORT="IR Data Received" COLSPAN="3" ALIGN="LEFT">IR Data Received</TD></TR>
+      <TR><TD PORT="Link to NetCRM Case" COLSPAN="3" ALIGN="LEFT">Link to NetCRM Case</TD></TR>
+      <TR><TD PORT="NetCRM Case#" COLSPAN="3" ALIGN="LEFT">NetCRM Case#</TD></TR>
+      <TR><TD PORT="Notes" COLSPAN="3" ALIGN="LEFT">Notes</TD></TR>
+      <TR><TD PORT="Package ID" COLSPAN="3" ALIGN="LEFT">Package ID</TD></TR>
+      <TR><TD PORT="Priority" COLSPAN="3" ALIGN="LEFT">Priority</TD></TR>
+      <TR><TD PORT="Protocol" COLSPAN="3" ALIGN="LEFT">Protocol</TD></TR>
+      <TR><TD PORT="QA" COLSPAN="3" ALIGN="LEFT">QA</TD></TR>
+      <TR><TD PORT="Questionnaire Sent" COLSPAN="3" ALIGN="LEFT">Questionnaire Sent</TD></TR>
+      <TR><TD PORT="Repository URL" COLSPAN="3" ALIGN="LEFT">Repository URL</TD></TR>
+      <TR><TD PORT="Start Date" COLSPAN="3" ALIGN="LEFT">Start Date</TD></TR>
+      <TR><TD PORT="Target Delivery Date" COLSPAN="3" ALIGN="LEFT">Target Delivery Date</TD></TR>
+      <TR><TD PORT="Test Build Link" COLSPAN="3" ALIGN="LEFT">Test Build Link</TD></TR>
+      <TR><TD PORT="Item Type" COLSPAN="3" ALIGN="LEFT">Item Type</TD></TR>
+      <TR><TD PORT="Path" COLSPAN="3" ALIGN="LEFT">Path</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">945 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/imported_irdata.html"
+    tooltip="imported_irdata"
+  ];
+}

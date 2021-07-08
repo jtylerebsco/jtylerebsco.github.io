@@ -1,0 +1,123 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "v_pig_audit" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "v_pig_audit" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">v_pig_audit</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="prodcode" COLSPAN="3" ALIGN="LEFT">prodcode</TD></TR>
+      <TR><TD PORT="prodname" COLSPAN="3" ALIGN="LEFT">prodname</TD></TR>
+      <TR><TD PORT="totcols" COLSPAN="3" ALIGN="LEFT">totcols</TD></TR>
+      <TR><TD PORT="status" COLSPAN="3" ALIGN="LEFT">status</TD></TR>
+      <TR><TD PORT="dbtype" COLSPAN="3" ALIGN="LEFT">dbtype</TD></TR>
+      <TR><TD PORT="priority" COLSPAN="3" ALIGN="LEFT">priority</TD></TR>
+      <TR><TD PORT="autobuild" COLSPAN="3" ALIGN="LEFT">autobuild</TD></TR>
+      <TR><TD PORT="team" COLSPAN="3" ALIGN="LEFT">team</TD></TR>
+      <TR><TD PORT="sls_compat" COLSPAN="3" ALIGN="LEFT">sls_compat</TD></TR>
+      <TR><TD PORT="prod_desc" COLSPAN="3" ALIGN="LEFT">prod_desc</TD></TR>
+      <TR><TD PORT="dept" COLSPAN="3" ALIGN="LEFT">dept</TD></TR>
+      <TR><TD PORT="dppa_owner" COLSPAN="3" ALIGN="LEFT">dppa_owner</TD></TR>
+      <TR><TD PORT="pm_owner" COLSPAN="3" ALIGN="LEFT">pm_owner</TD></TR>
+      <TR><TD PORT="pcm_owner" COLSPAN="3" ALIGN="LEFT">pcm_owner</TD></TR>
+      <TR><TD PORT="isspecialHandling" COLSPAN="3" ALIGN="LEFT">isspecialHandling</TD></TR>
+      <TR><TD PORT="stakeholder" COLSPAN="3" ALIGN="LEFT">stakeholder</TD></TR>
+      <TR><TD PORT="smestakeholder" COLSPAN="3" ALIGN="LEFT">smestakeholder</TD></TR>
+      <TR><TD PORT="component" COLSPAN="3" ALIGN="LEFT">component</TD></TR>
+      <TR><TD PORT="riskNotes" COLSPAN="3" ALIGN="LEFT">riskNotes</TD></TR>
+      <TR><TD PORT="countermeasures" COLSPAN="3" ALIGN="LEFT">countermeasures</TD></TR>
+      <TR><TD PORT="spec_loc" COLSPAN="3" ALIGN="LEFT">spec_loc</TD></TR>
+      <TR><TD PORT="fm_loc" COLSPAN="3" ALIGN="LEFT">fm_loc</TD></TR>
+      <TR><TD PORT="schema_name" COLSPAN="3" ALIGN="LEFT">schema_name</TD></TR>
+      <TR><TD PORT="iscruxready" COLSPAN="3" ALIGN="LEFT">iscruxready</TD></TR>
+      <TR><TD PORT="content_src" COLSPAN="3" ALIGN="LEFT">content_src</TD></TR>
+      <TR><TD PORT="build_freq" COLSPAN="3" ALIGN="LEFT">build_freq</TD></TR>
+      <TR><TD PORT="wf_sys_name" COLSPAN="3" ALIGN="LEFT">wf_sys_name</TD></TR>
+      <TR><TD PORT="build_type" COLSPAN="3" ALIGN="LEFT">build_type</TD></TR>
+      <TR><TD PORT="tolerance" COLSPAN="3" ALIGN="LEFT">tolerance</TD></TR>
+      <TR><TD PORT="est_build_time" COLSPAN="3" ALIGN="LEFT">est_build_time</TD></TR>
+      <TR><TD PORT="phr_notes" COLSPAN="3" ALIGN="LEFT">phr_notes</TD></TR>
+      <TR><TD PORT="source_department_id" COLSPAN="3" ALIGN="LEFT">source_department_id</TD></TR>
+      <TR><TD PORT="ftp_host" COLSPAN="3" ALIGN="LEFT">ftp_host</TD></TR>
+      <TR><TD PORT="ftp_username" COLSPAN="3" ALIGN="LEFT">ftp_username</TD></TR>
+      <TR><TD PORT="ftp_password" COLSPAN="3" ALIGN="LEFT">ftp_password</TD></TR>
+      <TR><TD PORT="delivery_notes" COLSPAN="3" ALIGN="LEFT">delivery_notes</TD></TR>
+      <TR><TD PORT="full_data_location" COLSPAN="3" ALIGN="LEFT">full_data_location</TD></TR>
+      <TR><TD PORT="sample_data_location" COLSPAN="3" ALIGN="LEFT">sample_data_location</TD></TR>
+      <TR><TD PORT="additional_deliveries" COLSPAN="3" ALIGN="LEFT">additional_deliveries</TD></TR>
+      <TR><TD PORT="archive_location" COLSPAN="3" ALIGN="LEFT">archive_location</TD></TR>
+      <TR><TD PORT="archive_data_folder_pattern" COLSPAN="3" ALIGN="LEFT">archive_data_folder_pattern</TD></TR>
+      <TR><TD PORT="archive_file_name_pattern" COLSPAN="3" ALIGN="LEFT">archive_file_name_pattern</TD></TR>
+      <TR><TD PORT="archive_xml_node" COLSPAN="3" ALIGN="LEFT">archive_xml_node</TD></TR>
+      <TR><TD PORT="availability_url" COLSPAN="3" ALIGN="LEFT">availability_url</TD></TR>
+      <TR><TD PORT="availability_instructions" COLSPAN="3" ALIGN="LEFT">availability_instructions</TD></TR>
+      <TR><TD PORT="availability_rc_pattern" COLSPAN="3" ALIGN="LEFT">availability_rc_pattern</TD></TR>
+      <TR><TD PORT="availability_url_username" COLSPAN="3" ALIGN="LEFT">availability_url_username</TD></TR>
+      <TR><TD PORT="availability_url_password" COLSPAN="3" ALIGN="LEFT">availability_url_password</TD></TR>
+      <TR><TD PORT="availability_check_type_id" COLSPAN="3" ALIGN="LEFT">availability_check_type_id</TD></TR>
+      <TR><TD PORT="availability_check_type_name" COLSPAN="3" ALIGN="LEFT">availability_check_type_name</TD></TR>
+      <TR><TD PORT="profiling_notes" COLSPAN="3" ALIGN="LEFT">profiling_notes</TD></TR>
+      <TR><TD PORT="delete_records" COLSPAN="3" ALIGN="LEFT">delete_records</TD></TR>
+      <TR><TD PORT="delete_records_supported" COLSPAN="3" ALIGN="LEFT">delete_records_supported</TD></TR>
+      <TR><TD PORT="authorities_number_of_fields" COLSPAN="3" ALIGN="LEFT">authorities_number_of_fields</TD></TR>
+      <TR><TD PORT="authorities_separate_spec" COLSPAN="3" ALIGN="LEFT">authorities_separate_spec</TD></TR>
+      <TR><TD PORT="hasauth" COLSPAN="3" ALIGN="LEFT">hasauth</TD></TR>
+      <TR><TD PORT="external_lookup_field_names" COLSPAN="3" ALIGN="LEFT">external_lookup_field_names</TD></TR>
+      <TR><TD PORT="external_lookup_provided_by" COLSPAN="3" ALIGN="LEFT">external_lookup_provided_by</TD></TR>
+      <TR><TD PORT="hjaf" COLSPAN="3" ALIGN="LEFT">hjaf</TD></TR>
+      <TR><TD PORT="hjaf_vendor_supplied" COLSPAN="3" ALIGN="LEFT">hjaf_vendor_supplied</TD></TR>
+      <TR><TD PORT="authority_type_id" COLSPAN="3" ALIGN="LEFT">authority_type_id</TD></TR>
+      <TR><TD PORT="authority_content_type_id" COLSPAN="3" ALIGN="LEFT">authority_content_type_id</TD></TR>
+      <TR><TD PORT="metadata_uniqueid_path" COLSPAN="3" ALIGN="LEFT">metadata_uniqueid_path</TD></TR>
+      <TR><TD PORT="metadata_peer_review_path" COLSPAN="3" ALIGN="LEFT">metadata_peer_review_path</TD></TR>
+      <TR><TD PORT="planned_reloads" COLSPAN="3" ALIGN="LEFT">planned_reloads</TD></TR>
+      <TR><TD PORT="expected_record_count" COLSPAN="3" ALIGN="LEFT">expected_record_count</TD></TR>
+      <TR><TD PORT="ft_metadata_alignment" COLSPAN="3" ALIGN="LEFT">ft_metadata_alignment</TD></TR>
+      <TR><TD PORT="ft_exists" COLSPAN="3" ALIGN="LEFT">ft_exists</TD></TR>
+      <TR><TD PORT="ft_format_id" COLSPAN="3" ALIGN="LEFT">ft_format_id</TD></TR>
+      <TR><TD PORT="file_format_id" COLSPAN="3" ALIGN="LEFT">file_format_id</TD></TR>
+      <TR><TD PORT="isSourceDB" COLSPAN="3" ALIGN="LEFT">isSourceDB</TD></TR>
+      <TR><TD PORT="isTargetDB" COLSPAN="3" ALIGN="LEFT">isTargetDB</TD></TR>
+      <TR><TD PORT="is_lateral_linking" COLSPAN="3" ALIGN="LEFT">is_lateral_linking</TD></TR>
+      <TR><TD PORT="lateral_linking_fields" COLSPAN="3" ALIGN="LEFT">lateral_linking_fields</TD></TR>
+      <TR><TD PORT="is_smartlinking" COLSPAN="3" ALIGN="LEFT">is_smartlinking</TD></TR>
+      <TR><TD PORT="product_additional_facets" COLSPAN="3" ALIGN="LEFT">product_additional_facets</TD></TR>
+      <TR><TD PORT="proprietary" COLSPAN="3" ALIGN="LEFT">proprietary</TD></TR>
+      <TR><TD PORT="ip_access_model_description" COLSPAN="3" ALIGN="LEFT">ip_access_model_description</TD></TR>
+      <TR><TD PORT="content_accessibility_level_id" COLSPAN="3" ALIGN="LEFT">content_accessibility_level_id</TD></TR>
+      <TR><TD PORT="date_record_count_provided" COLSPAN="3" ALIGN="LEFT">date_record_count_provided</TD></TR>
+      <TR><TD PORT="contactemail" COLSPAN="3" ALIGN="LEFT">contactemail</TD></TR>
+      <TR><TD PORT="contactName" COLSPAN="3" ALIGN="LEFT">contactName</TD></TR>
+      <TR><TD PORT="tshirt_size_id" COLSPAN="3" ALIGN="LEFT">tshirt_size_id</TD></TR>
+      <TR><TD PORT="number_of_fields" COLSPAN="3" ALIGN="LEFT">number_of_fields</TD></TR>
+      <TR><TD PORT="number_of_fields_special_attention" COLSPAN="3" ALIGN="LEFT">number_of_fields_special_attention</TD></TR>
+      <TR><TD PORT="special_attention_fields_provided_by" COLSPAN="3" ALIGN="LEFT">special_attention_fields_provided_by</TD></TR>
+      <TR><TD PORT="title_field_path" COLSPAN="3" ALIGN="LEFT">title_field_path</TD></TR>
+      <TR><TD PORT="metadata_notes" COLSPAN="3" ALIGN="LEFT">metadata_notes</TD></TR>
+      <TR><TD PORT="encoding_id" COLSPAN="3" ALIGN="LEFT">encoding_id</TD></TR>
+      <TR><TD PORT="file_folder_spaces_tildes" COLSPAN="3" ALIGN="LEFT">file_folder_spaces_tildes</TD></TR>
+      <TR><TD PORT="file_exceeds_2gb_limit" COLSPAN="3" ALIGN="LEFT">file_exceeds_2gb_limit</TD></TR>
+      <TR><TD PORT="cur_build_stat" COLSPAN="3" ALIGN="LEFT">cur_build_stat</TD></TR>
+      <TR><TD PORT="cur_build_job" COLSPAN="3" ALIGN="LEFT">cur_build_job</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">view</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/v_pig_audit.html"
+    tooltip="v_pig_audit"
+  ];
+}

@@ -1,0 +1,35 @@
+// dot 2.2.1 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "v_sub_estimated_days_between_deliveries_02" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "v_sub_estimated_days_between_deliveries_02" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">v_sub_estimated_days_between_deliveries_02</TD></TR>
+      <TR><TD PORT="product_id" COLSPAN="3" ALIGN="LEFT">product_id</TD></TR>
+      <TR><TD PORT="build_frequency_name" COLSPAN="3" ALIGN="LEFT">build_frequency_name</TD></TR>
+      <TR><TD PORT="schedule_template_date_count" COLSPAN="3" ALIGN="LEFT">schedule_template_date_count</TD></TR>
+      <TR><TD PORT="frequency_recurrence_fix" COLSPAN="3" ALIGN="LEFT">frequency_recurrence_fix</TD></TR>
+      <TR><TD PORT="mapped_frequency_number" COLSPAN="3" ALIGN="LEFT">mapped_frequency_number</TD></TR>
+      <TR><TD PORT="estimated_days_between_builds" COLSPAN="3" ALIGN="LEFT">estimated_days_between_builds</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">view</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/v_sub_estimated_days_between_deliveries_02.html"
+    tooltip="v_sub_estimated_days_between_deliveries_02"
+  ];
+}

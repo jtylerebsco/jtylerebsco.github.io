@@ -17,6 +17,7 @@
  <ul>
   <li><a href='../index.html' title='All tables and views in the schema'>Tables</a></li>
   <li><a href='../relationships.html' title='Diagram of table relationships'>Relationships</a></li>
+  <li><a href='../utilities.html' title='View of tables with neither parents nor children'>Utility&nbsp;Tables</a></li>
   <li><a href='../constraints.html' title='Useful for diagnosing error messages that just give constraint name or number'>Constraints</a></li>
   <li><a href='../anomalies.html' title="Things that might not be quite right">Anomalies</a></li>
   <li><a href='../columns.byTable.html' title="All of the columns in the schema">Columns</a></li>
@@ -141,7 +142,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='2 columns'>Table contained 74 rows at Thu Jul 08 08:17 EDT 2021<p/>
+<p title='2 columns'>Table contained 74 rows at Thu Jul 08 09:19 EDT 2021<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -170,9 +171,55 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </table>
 </div>
 <table width='100%' border='0'><tr><td class='container'>
-</td></tr></table><p>
-<br>SchemaSpy was unable to generate a diagram of table relationships.
-<br>SchemaSpy requires Graphviz version 2.2.1 or versions greater than 2.4 from <a href='http://www.graphviz.org' target='_blank'>www.graphviz.org</a>.
+<br><form action='get'><b>Close relationships</b><span class='degrees' id='degrees' title='Detail diminishes with increased separation from product_families'>
+&nbsp;within <label for='oneDegree'><input type='radio' name='degrees' id='oneDegree' checked>one</label>  <label for='twoDegrees'><input type='radio' name='degrees' id='twoDegrees'>two degrees</label> of separation</span><b>:</b></form>
+<map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" href="product_families.html" title="product_families" alt="" coords="268,520,454,626" >
+<area shape="rect" href="database_families.html" title="database_families" alt="" coords="40,1057,192,1158" >
+<area shape="rect" href="products.html" title="products" alt="" coords="8,8,224,1040" >
+</map>
+  <a name='diagram'><img id='oneDegreeImg' src='../diagrams/product_families.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+<map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" href="archive_delivery_date_history.html" title="archive_delivery_date_history" alt="" coords="708,2052,934,2132" >
+<area shape="rect" href="users.html" title="users" alt="" coords="197,1314,357,1394" >
+<area shape="rect" href="products.html" title="products" alt="" coords="416,884,632,1916" >
+<area shape="rect" href="statuses.html" title="statuses" alt="" coords="8,938,138,1018" >
+<area shape="rect" href="build_types.html" title="build_types" alt="" coords="209,889,345,969" >
+<area shape="rect" href="database_types.html" title="database_types" alt="" coords="209,694,345,774" >
+<area shape="rect" href="loader_types.html" title="loader_types" alt="" coords="210,1702,344,1782" >
+<area shape="rect" href="priorities.html" title="priorities" alt="" coords="210,792,344,872" >
+<area shape="rect" href="availability_check_types.html" title="availability_check_types" alt="" coords="182,1473,372,1553" >
+<area shape="rect" href="content_providers.html" title="content_providers" alt="" coords="202,1217,352,1297" >
+<area shape="rect" href="content_sources.html" title="content_sources" alt="" coords="208,1120,346,1200" >
+<area shape="rect" href="workflow_systems.html" title="workflow_systems" alt="" coords="201,986,353,1066" >
+<area shape="rect" href="archive_delivery_date_history_stg.html" title="archive_delivery_date_history_stg" alt="" coords="693,2273,949,2353" >
+<area shape="rect" href="archive_delivery_date_history_test.html" title="archive_delivery_date_history_test" alt="" coords="692,1857,950,1937" >
+<area shape="rect" href="autobuild.html" title="autobuild" alt="" coords="760,1273,882,1353" >
+<area shape="rect" href="product_admin_titlelists.html" title="product_admin_titlelists" alt="" coords="728,1370,914,1450" >
+<area shape="rect" href="product_archivenotes.html" title="product_archivenotes" alt="" coords="734,1468,908,1548" >
+<area shape="rect" href="product_automic_workflow_parameters.html" title="product_automic_workflow_parameters" alt="" coords="676,1565,966,1645" >
+<area shape="rect" href="product_automic_workflow_sections.html" title="product_automic_workflow_sections" alt="" coords="686,1662,956,1742" >
+<area shape="rect" href="product_availability.html" title="product_availability" alt="" coords="741,1760,901,1840" >
+<area shape="rect" href="product_build_details.html" title="product_build_details" alt="" coords="736,105,906,185" >
+<area shape="rect" href="product_catalog_ir.html" title="product_catalog_ir" alt="" coords="745,202,897,282" >
+<area shape="rect" href="product_customlinks.html" title="product_customlinks" alt="" coords="738,300,904,380" >
+<area shape="rect" href="product_db_taglist.html" title="product_db_taglist" alt="" coords="745,397,897,477" >
+<area shape="rect" href="product_families.html" title="product_families" alt="" coords="728,2149,914,2256" >
+<area shape="rect" href="database_families.html" title="database_families" alt="" coords="448,2174,600,2276" >
+<area shape="rect" href="product_schema.html" title="product_schema" alt="" coords="745,494,897,574" >
+<area shape="rect" href="product_sls_loader_sections.html" title="product_sls_loader_sections" alt="" coords="712,592,930,672" >
+<area shape="rect" href="product_sls_parameters.html" title="product_sls_parameters" alt="" coords="726,689,916,769" >
+<area shape="rect" href="product_smartlink_dbs.html" title="product_smartlink_dbs" alt="" coords="732,786,910,866" >
+<area shape="rect" href="product_smartlink_sources.html" title="product_smartlink_sources" alt="" coords="717,884,925,964" >
+<area shape="rect" href="product_supportfile.html" title="product_supportfile" alt="" coords="742,981,900,1061" >
+<area shape="rect" href="product_supportrfiles.html" title="product_supportrfiles" alt="" coords="736,1078,906,1158" >
+<area shape="rect" href="products_smart_links.html" title="products_smart_links" alt="" coords="736,1176,906,1256" >
+<area shape="rect" href="schedule_templates.html" title="schedule_templates" alt="" coords="740,1954,902,2034" >
+<area shape="rect" href="scheduled_builds.html" title="scheduled_builds" alt="" coords="721,8,921,88" >
+</map>
+
+  <a name='diagram'><img id='twoDegreesImg' src='../diagrams/product_families.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
+</td></tr></table>
 </div>
 </body>
 </html>
